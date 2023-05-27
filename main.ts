@@ -2,7 +2,7 @@ namespace StatusBarKind {
     export const O2 = StatusBarKind.create()
 }
 controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
-    statusbar.value += 15
+    statusbar.value += 13
 })
 function Jump_and_Gravity () {
     scene.cameraFollowSprite(mySprite)
